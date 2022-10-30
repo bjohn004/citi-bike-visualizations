@@ -10,9 +10,11 @@ This CSV gets reduced down to about 3,000,000 rows and will be exported to use i
 ## Tableau Presentation
 The presentation is digging into two observations.
 
-1. The top 10 stations and how they space out around Manhattan and how they fair in terms of different months during 2021. Slides 1 to 5 outlined below help visualize this observations.
+1. The top 10 stations and how they space out around Manhattan and how they fair in terms of different months during 2021. Slides 1 to 6 outlined below help visualize this observations.
 
-1. The difference between members of CitiBike and casual users. Is there a difference that can be seen from different times of the year and different parts of the City. Slides 6 to 8 outlined below help visualize this observations.
+1. The difference between members of CitiBike and casual users. Is there a difference that can be seen from different times of the year and different parts of the City. Slides 7 to 8 outlined below help visualize this observations.
+
+1. The additional slides of the map with zip codes helps show the more used station in relation to these zipe code boundaries.
 
 ***
 **Slide 1**
@@ -39,16 +41,20 @@ The presentation is digging into two observations.
 - Analysis: This chart demonstrates which top stations are likley more subscriber driven or touristy driven. The most popular startions with a higher proportion of casuals occur along the south/west part of Manhattan. This indicates the review of needing enough hotels and other touristy features within these parts of the City. T
 
 **Slide 6**
+- Map that shows the most frequently visited end stations by the size of the circle and it runs through the top start stations as the unique identifier for the map.
+
+- Analysis: the map shows that most of the start stations are located on the southern part of the island. the 1 Ave and E 68th Street Station appears to be the most popular station on the northern middle half of the island. This station also has the most frequent connections with Brooklyn compared to the other top 10 stations.
+
+**Slide 7**
 - This second dashboard helps us understand the difference between members of CitiBike and casual users.
 
 - Analysis: As seen in the top chart, the total users increase in the summer months. The bottom chart helps show the demand of CitiBikes and the top 10 stations from the first analsyis.
 
-**Slide 7**
-- The bar charts demonstrates the percentage of rides that utilized the different bike types by Month.
+**Slide 8**
+- The bar chart showing the difference in average trip distance for casuals or members and by the type of bike they are riding.
 
-- Analysis: No data was calculated in 
+- Analysis: the average disance difference between casuals and members is generally consistent with the different bike types. Casuals generally have longer bike rides and e-bikes are usually used for longer trips. Casuals are more likely to be tourists and go on longer rides, so can we find a way to get more E-Bikes in the tourist heavy bike areas?
 
-**Slide 8**- The bar charts demonstrates the percentage of rides that utilized the different bike types by Month.
-
-- Analysis: No data was calculated in 
+**Slide 9**
+- The map is isplaying the zip code boundaries in addition to the most frequent Start Stations. The average duration of these rides are also indicated by the color of the ciricle. So larger circles are end stations that have a more frequent starting stations, and the color shows longer trips the closer the color gets to green.
 
