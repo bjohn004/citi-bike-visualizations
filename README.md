@@ -1,5 +1,19 @@
 # citi-bike-visualizations
-An Analysis of citi bike data from 2017 to 2022 utilizing Pandas and Tableau.
+An Analysis of citi bike data for the year 2021 utilizing Pandas and Tableau.
+
+## Tableau Public Link
+Please see the link below for the Tableau Public link.
+
+[TABLEAU PUBLIC LINK](https://public.tableau.com/views/citi_bike_viz/2021Top10CitiBikeStationsandMembersvsCasuals-Story?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+
+## Repo Contents
+***
+The contetns of the repo are the following:
+1. citibike_data_exploration.ipynb - Jupyter notebook used to get familiar with data and create a CSV with combined months from miscallaneous years. This CSV is not currently used in the Tableau analysis, but could be used in the future.
+
+1. citibike_data_cleanup.ipynb - Jupyter notebook that combines all the csv's for the year 2021 into one csv and filters the data to only include start stations that had more than 95,000 occurrences thus producing the Top 10 Stations in the City.
+
 ## Data Exploration and Cleanup
 ***
 All of the CSVs from the year 2021 were downloaded and brought into Pandas as their respective dataframes. The month of January required some cleanup to rename columsn since CitiBike has changed their data column headings as of February 2021.
@@ -36,9 +50,9 @@ The presentation is digging into two observations.
 - Analysis: No data was calculated in January as January was still using the previous data collection system. The docked_bike appears to occurr 100% of the time from February to May indicating that the City either permanently is swapping out the docked_bikes or they swap them for Winter months. However it seems that in December of 2021 there are very little docked_bikes, so it seems the classic_bike and electric_bike are being utilized now.
 
 **Slide 5**
-- The dashbaord demonstrates top 5 start stations and the percent of the rides that are by members of CitiBike or casual users.
+- The dashbaord demonstrates top 10 start stations and the difference of the rides that are by members of CitiBike or casual users. Click the interactive button on the right to see results for each month.
 
-- Analysis: This chart demonstrates which top stations are likley more subscriber driven or touristy driven. The most popular startions with a higher proportion of casuals occur along the south/west part of Manhattan. This indicates the review of needing enough hotels and other touristy features within these parts of the City. T
+- Analysis: See the increase in users over the months into the summer and the drop as we head back to winter. The % increase of casual members is apparent as well.
 
 **Slide 6**
 - Map that shows the most frequently visited end stations by the size of the circle and it runs through the top start stations as the unique identifier for the map.
@@ -56,5 +70,10 @@ The presentation is digging into two observations.
 - Analysis: the average disance difference between casuals and members is generally consistent with the different bike types. Casuals generally have longer bike rides and e-bikes are usually used for longer trips. Casuals are more likely to be tourists and go on longer rides, so can we find a way to get more E-Bikes in the tourist heavy bike areas?
 
 **Slide 9**
-- The map is isplaying the zip code boundaries in addition to the most frequent Start Stations. The average duration of these rides are also indicated by the color of the ciricle. So larger circles are end stations that have a more frequent starting stations, and the color shows longer trips the closer the color gets to green.
+- The dashbaord demonstrates top 5 start stations and the percentages of casual users vs members of CitiBike.
+
+- Analysis: This chart demonstrates which top stations are likley more subscriber driven or touristy driven. The most popular startions with a higher proportion of casuals occur along the south/west part of Manhattan. This indicates the review of needing enough hotels and other touristy features within these parts of the City. 
+
+**Slide 10**
+- The map is displaying the zip code boundaries in addition to the most frequent Start Stations. The average duration of these rides are also indicated by the color of the ciricle. So larger circles are end stations that have a more frequent starting stations, and the color shows longer trips the closer the color gets to green. The trip duration was filtered from 1,000 to 5,000 seconds to show trips of substantial duration.
 
