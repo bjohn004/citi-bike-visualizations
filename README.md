@@ -26,9 +26,9 @@ The presentation is digging into two observations.
 
 1. The top 10 stations and how they space out around Manhattan and how they fair in terms of different months during 2021. Slides 1 to 6 outlined below help visualize this observations.
 
-1. The difference between members of CitiBike and casual users. Is there a difference that can be seen from different times of the year and different parts of the City. Slides 7 to 8 outlined below help visualize this observations.
+1. The difference between members of CitiBike and casual users. Is there a difference that can be seen from different times of the year and different parts of the City. Slides 7 to 9 outlined below help visualize this observation.
 
-1. The additional slides of the map with zip codes helps show the more used station in relation to these zipe code boundaries.
+1. The additional slide of the map with zip codes helps show the more used station in relation to these zip code boundaries.
 
 ***
 **Slide 1**
