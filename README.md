@@ -77,3 +77,5 @@ The presentation is digging into two observations.
 **Slide 10**
 - The map is displaying the zip code boundaries in addition to the most frequent Start Stations. The average duration of these rides are also indicated by the color of the ciricle. So larger circles are end stations that have a more frequent starting stations, and the color shows longer trips the closer the color gets to green. The trip duration was filtered from 1,000 to 5,000 seconds to show trips of substantial duration.
 
+- Analysis: In general the circles get bigger with the warmer months meaning there are more rides happening. The average length of the rides denoted by the color seem to generally stay closer to 1,000 seconds. There isn't really a correlation from this map that shows any relation between the average trip time and the time of year the rides take place. It seems even tourists/casuals use the bikes mostly for convenience rather that exploring the entire city.
+
