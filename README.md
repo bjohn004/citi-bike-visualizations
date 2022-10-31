@@ -17,7 +17,7 @@ The contetns of the repo are the following:
 
 ## Data Exploration and Cleanup
 ***
-All of the CSVs from the year 2021 were downloaded and brought into Pandas as their respective dataframes. The month of January required some cleanup to rename columsn since CitiBike has changed their data column headings as of February 2021.
+All of the CSVs from the year 2021 were downloaded and brought into Pandas as their respective dataframes. The month of January required some cleanup to rename columns since CitiBike has changed their data column headings as of February 2021.
 
 There are approximately 27,000,000 records of data in the year 2021, so the jupytner notebook utilizied a filter to find the top 10 most popular start stations. This was completed by finding the starting stations with greater than 95,000 occurences in the year.
 
