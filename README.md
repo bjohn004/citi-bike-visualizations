@@ -1,5 +1,7 @@
 # citi-bike-visualizations
-An Analysis of citi bike data for the year 2021 utilizing Pandas and Tableau.
+Summary/Problem: An Analysis of citi bike data for the year 2021 utilizing Pandas and Tableau. Trying to provide City Officials a clear understanding of observations obtained from the 2021 data using Tableau, see snapshot below.
+
+![image1](images/screenshot.png)
 
 ## Tableau Public Link
 Please see the link below for the Tableau Public link.
