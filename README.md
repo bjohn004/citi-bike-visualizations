@@ -1,5 +1,6 @@
 # citi-bike-visualizations
-Summary/Problem: An Analysis of citi bike data for the year 2021 utilizing Pandas and Tableau. Trying to provide City Officials a clear understanding of observations obtained from the 2021 data using Tableau, see snapshot below.
+
+Summary/Problem: An Analysis of citi bike data for the year 2021 utilizing Pandas and Tableau. Trying to provide City Officials a clear understanding of observations obtained from the 2021 data using Tableau, see snapshot below. This repo contains analysis in the below README and Jupyter notebooks for combining/cleaning data from the CitiBike website. Please note that the CSV file sizes are > 100mb therefore could not be uploaded to GitHub.
 
 ![image1](images/screenshot.png)
 
@@ -18,7 +19,7 @@ The contetns of the repo are the following:
 
 ## Data Exploration and Cleanup
 ***
-All of the CSVs from the year 2021 were downloaded and brought into Pandas as their respective dataframes. The month of January required some cleanup to rename columsn since CitiBike has changed their data column headings as of February 2021.
+All of the CSVs from the year 2021 were downloaded and brought into Pandas as their respective dataframes. The month of January required some cleanup to rename columns since CitiBike has changed their data column headings as of February 2021.
 
 There are approximately 27,000,000 records of data in the year 2021, so the jupytner notebook utilizied a filter to find the top 10 most popular start stations. This was completed by finding the starting stations with greater than 95,000 occurences in the year.
 
